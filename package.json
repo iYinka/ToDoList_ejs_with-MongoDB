@@ -1,0 +1,22 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "This is for ToDOLIst\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[o",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olayinka Victor\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[\u001b[C\u001b[C\u001b[C\u001bctor Owolabi",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.4"
+  }
+}

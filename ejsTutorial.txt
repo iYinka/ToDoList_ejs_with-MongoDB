@@ -1,0 +1,29 @@
+ejs means Embedded JavaScript template
+It is a .ejs file
+It is denoted using <%= [nameOfVariable in .js file] %>
+
+Download it in the directory using npm i.e. npm install ejs
+
+ejs is used to create reusable templates(list.ejs in this case)
+
+check ejs.com for some more documentations on when to use control tags like <%= %>, <% %>, <%- %> and so on
+
+For example: <% 'Scriplet' tag for control-flow no output is wrapped around each line(begining and end of the each line) of code that is JavaScript if mixed with say HTML
+
+
+app.set('view engine', 'ejs'); is IMPORTANT after const app = express();
+
+
+
+For the date format used, it was gotten from StackOverflow
+
+
+public folder is always created to hold folders like css, JavaScript etc because express should be coded to find them EXPLICITLY.
+css folder/file for example is located as thus immediately after "app.use(bodyParser.urlencoded({extended: true}));
+i.e app.use(express.static("public"));
+
+
+
+
+TO USE DATABASE(mongoDB)
+-Run npm i mongoose on todolist directory
